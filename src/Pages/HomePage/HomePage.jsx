@@ -3,6 +3,7 @@ import Navbar from '../../Components/SharedComponent/Navbar.jsx';
 import Introduction from './Introduction.jsx';
 import Stats from './Stats.jsx';
 import MyServices from './MyServices.jsx';
+import RecentWork from './RecentWork.jsx';
 function HomePage() {
   return (
    <>
@@ -11,6 +12,7 @@ function HomePage() {
    <Introduction/>
     <Stats/>
     <MyServices/>
+    <RecentWork/>
   
    </div>
    </>

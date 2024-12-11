@@ -32,6 +32,8 @@
 
 *{
   scrollbar-width: thin;
+  user-select: none;
+  -moz-user-select: none;
   scrollbar-color: #8750f7 #2a1454;
 }
 
