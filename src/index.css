@@ -23,6 +23,7 @@
  --LightBG:#ffff;
  --DarkText:#ffff;
  --LightText:#2a1454;
+ --BlackAccent:#140c1c;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -34,21 +35,43 @@
   scrollbar-width: thin;
   user-select: none;
   -moz-user-select: none;
-  scrollbar-color: #8750f7 #2a1454;
+  scrollbar-color: var(--PrimaryColor) #2a1454;
 }
 
+.workDiv{
+  background-color: var(--BlackAccent);
+}
+
+
+.portfolio-box:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 35%;
+  height: 35%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: var(--tj-theme-primary);
+  background: -o-linear-gradient(190deg, var(--PrimaryColor) 0%, rgba(115, 67, 210, 0) 100%);
+  background: linear-gradient(260deg, var(--PrimaryColor) 0%, #7343d200 100%);
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+}
 
 .animate-stroke {
  
   fill: transparent;
  position: absolute;
  left: -50px;
-    top: 15%;
+    top: 12%;
     position: absolute;
   width: 100%;
   height: 100%;
   z-index: -100;
- animation: stroke 3s ease forwards, breathing 4s ease-in-out infinite;   stroke-dasharray: 1000;
+ animation: stroke 3s ease forwards, breathing 3.5s ease-in-out infinite;   stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     -webkit-text-stroke: 2px black; 
 }
@@ -76,7 +99,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1); 
+    transform: scale(1.07); 
   }
 }
 
@@ -125,7 +148,7 @@ top: -300px;
 z-index: -1000;
 background: linear-gradient(260deg, #8750f7 0%, rgba(115, 67, 210, 0) 100%);
 /* opacity: 0.59; */
-filter: blur(155.5px);
+filter: blur(146.5px);
 border-radius: 9999px;
 }
 

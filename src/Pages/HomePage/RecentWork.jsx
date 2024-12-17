@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
+import Magnifyx from '../../assets/HomePage/Magnifyx.png'
 
 function RecentWork() {
   const WorkBtn = ['All', 'UI/UX', 'Web Development', 'Web Redesign']
@@ -22,7 +23,7 @@ function RecentWork() {
   }, [activeButton]);
 
   return (
-    <div className='font-sora flex flex-col items-center md:px-3 !py-0 !pb-24 lg:px-10 xl:p-24 w-full gap-14'>
+    <div className='font-sora flex flex-col items-center md:px-3 !py-0 !pb-24 lg:px-10 xl:p-28 w-full gap-14'>
       <div className="flex flex-col items-center px-1 gap-4">
         <h1
           className="font-bold md:text-left text-center Hero-Title leading-[1.2]"
@@ -60,6 +61,18 @@ function RecentWork() {
           </button>
         ))}
       </div>
+
+        <div className='flex flex-wrap relative justify-between w-full py-4   '>
+
+        <div className="blur !top-1/2 left-1/2 !blur-[118px]  -translate-x-1/2 -translate-y-1/2 !w-[50%] !h-[233px]"/>
+
+          <div className=' bg-blue-300 w-[48%] p-9 pb-0 min-h-[360px] workDiv mb-[30px]' > <img src={Magnifyx} alt="Magnifyx" /></div>
+          <div className=' bg-blue-300 w-[48%] py-4 min-h-[360px] workDiv mb-[30px]'></div>
+          <div className=' bg-blue-300 w-[48%] py-4 min-h-[360px] workDiv mb-[30px]'></div>
+          <div className=' bg-blue-300 w-[48%] py-4 min-h-[360px] workDiv mb-[30px]'></div>
+
+        </div>
+
     </div>
   )
 }
