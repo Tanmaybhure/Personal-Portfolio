@@ -1,5 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react'
-import Magnifyx from '../../assets/HomePage/Magnifyx.png'
+import Magnifyx from '../../assets/RecentWork/Magnify.png'
+import NowsBansi from '../../assets/RecentWork/Bansi.png'
+import FrenchNYou from '../../assets/RecentWork/FrenchNYou.png'
+import Rediance from '../../assets/RecentWork/Rediance.png'
+import MamtaPortfolio from '../../assets/RecentWork/MamtaPortfolio.png'
+import Deltasafe from '../../assets/RecentWork/Deltasafe.png'
+import Gtube from '../../assets/RecentWork/Gtube.png'
 
 function RecentWork() {
   const WorkBtn = ['All', 'UI/UX', 'Web Development', 'Web Redesign']
@@ -62,14 +68,18 @@ function RecentWork() {
         ))}
       </div>
 
-        <div className='flex flex-wrap relative justify-between w-full py-4   '>
+        <div className='flex flex-wrap relative h-[1000px] justify-between w-full py-4   '>
 
-        <div className="blur !top-1/2 left-1/2 !blur-[118px]  -translate-x-1/2 -translate-y-1/2 !w-[50%] !h-[233px]"/>
+        <div className="blur !top-1/2 left-1/2 !blur-[150px]  -translate-x-1/2 -translate-y-1/2 !w-[30%] !h-[30%]"/>
 
-          <div className=' bg-blue-300 w-[48%] p-9 pb-0 min-h-[360px] workDiv mb-[30px]' > <img src={Magnifyx} alt="Magnifyx" /></div>
-          <div className=' bg-blue-300 w-[48%] py-4 min-h-[360px] workDiv mb-[30px]'></div>
-          <div className=' bg-blue-300 w-[48%] py-4 min-h-[360px] workDiv mb-[30px]'></div>
-          <div className=' bg-blue-300 w-[48%] py-4 min-h-[360px] workDiv mb-[30px]'></div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] overflow-hidden workDiv mb-[30px] shadow-xl  max-h-[506px]' > <img src={Magnifyx} alt="Magnifyx" className='object-cover rounded-sm ' /> </div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl  max-h-[506px]' > <img src={Rediance} alt="Rediance" className='object-cover rounded-sm ' /> </div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl  max-h-[506px]' > <img src={Deltasafe} alt="Deltasafe" className='object-cover rounded-sm' /> </div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]'> <img src={FrenchNYou} alt="FrenchNYou" className='object-cover rounded-sm' /> </div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]' > <img src={Gtube} alt="Gtube" className='object-cover rounded-sm' /> </div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]'> <img src={NowsBansi} alt="NowsBansi" className='object-cover rounded-sm' /> </div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]'> <img src={MamtaPortfolio} alt="Portfolio" className='object-cover rounded-sm' /> </div>
+
 
         </div>
 

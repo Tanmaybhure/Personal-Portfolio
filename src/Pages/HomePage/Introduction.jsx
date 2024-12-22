@@ -2,7 +2,7 @@ import React from "react";
 import SecondaryBtn from "../../Components/SharedComponent/Buttons/SecondaryBtn";
 import DownloadLogo from "../../assets/HomePage/DownloadLogo.jsx";
 import Gajju from "../../assets/HomePage/profile.svg";
-import { Download, Twitter, Instagram, Linkedin, Github } from "lucide-react";
+import {  Instagram, Linkedin, Github } from "lucide-react";
 
 function Introduction() {
   return (
