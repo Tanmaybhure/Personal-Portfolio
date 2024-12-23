@@ -6,6 +6,7 @@ import Rediance from '../../assets/RecentWork/Rediance.png'
 import MamtaPortfolio from '../../assets/RecentWork/MamtaPortfolio.png'
 import Deltasafe from '../../assets/RecentWork/Deltasafe.png'
 import Gtube from '../../assets/RecentWork/Gtube.png'
+import Elearners from '../../assets/RecentWork/Elearners.png'
 
 function RecentWork() {
   const WorkBtn = ['All', 'UI/UX', 'Web Development', 'Web Redesign']
@@ -79,6 +80,7 @@ function RecentWork() {
           <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]' > <img src={Gtube} alt="Gtube" className='object-cover rounded-sm' /> </div>
           <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]'> <img src={NowsBansi} alt="NowsBansi" className='object-cover rounded-sm' /> </div>
           <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]'> <img src={MamtaPortfolio} alt="Portfolio" className='object-cover rounded-sm' /> </div>
+          <div className=' bg-blue-300 w-[48%] p-10 pb-0 rounded-[10px] min-h-[360px] overflow-hidden workDiv mb-[30px] shadow-xl max-h-[506px]'> <img src={Elearners} alt="Elearners" className='object-cover rounded-sm' /> </div>
 
 
         </div>
