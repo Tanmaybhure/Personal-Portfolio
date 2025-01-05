@@ -36,10 +36,12 @@
   user-select: none;
   -moz-user-select: none;
   scrollbar-color: var(--PrimaryColor) #2a1454;
+  scroll-behavior: smooth;
 }
 
 .workDiv{
   background-color: var(--BlackAccent); /*#160920*/
+  will-change: opacity, transform;
 }
 
 

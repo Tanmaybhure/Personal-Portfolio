@@ -1,11 +1,11 @@
-import Magnifyx from '../../assets/RecentWork/Magnify.png'
-import NowsBansi from '../../assets/RecentWork/Bansi.png'
-import FrenchNYou from '../../assets/RecentWork/FrenchNYou.png'
-import Rediance from '../../assets/RecentWork/Rediance.png'
-import MamtaPortfolio from '../../assets/RecentWork/MamtaPortfolio.png'
-import Deltasafe from '../../assets/RecentWork/Deltasafe.png'
-import Gtube from '../../assets/RecentWork/Gtube.png'
-import Elearners from '../../assets/RecentWork/Elearners.png'
+import Magnifyx from '../../assets/RecentWork/Magnify.svg'
+import NowsBansi from '../../assets/RecentWork/Bansi.svg'
+import FrenchNYou from '../../assets/RecentWork/FrenchNYou.svg'
+import Rediance from '../../assets/RecentWork/Rediance.svg'
+import MamtaPortfolio from '../../assets/RecentWork/MamtaPortfolio.svg'
+import Deltasafe from '../../assets/RecentWork/Deltasafe.svg'
+import Gtube from '../../assets/RecentWork/Gtube.svg'
+import Elearners from '../../assets/RecentWork/Elearners.svg'
 
 export const WorkData=[
     {
@@ -13,7 +13,7 @@ export const WorkData=[
         img: Magnifyx,
         desc: 'Magnifyx is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
         category: 'Web Development',
-        category2: 'UI/UX',
+       
     },
     {
         title: 'Rediance',
@@ -58,6 +58,5 @@ export const WorkData=[
         img: Elearners,
         desc: 'Elearners is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
         category: 'Web Development',
-        category2: 'UI/UX'
     }
 ]
