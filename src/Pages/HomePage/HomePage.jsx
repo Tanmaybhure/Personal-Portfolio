@@ -4,6 +4,7 @@ import Introduction from './Introduction.jsx';
 import Stats from './Stats.jsx';
 import MyServices from './MyServices.jsx';
 import RecentWork from './RecentWork.jsx';
+import Experiance_Education from './Experiance_Education.jsx';
 function HomePage() {
   return (
    <>
@@ -13,7 +14,7 @@ function HomePage() {
     <Stats/>
     <MyServices/>
     <RecentWork/>
-  
+    <Experiance_Education />
    </div>
    </>
   )

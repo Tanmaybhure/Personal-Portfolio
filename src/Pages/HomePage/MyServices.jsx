@@ -31,7 +31,7 @@ function MyServices() {
 
   return (
     <>
-      <div className="bg-black font-sora flex flex-col items-center md:px-3 py-24 lg:px-10 xl:p-24 w-full gap-14">
+      <div className="bg-[#06080a] font-sora flex flex-col items-center md:px-3 py-24 lg:px-10 xl:p-24 w-full gap-14">
         
         <div className="flex flex-col items-center px-1  gap-4">
           <h1

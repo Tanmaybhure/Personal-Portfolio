@@ -229,6 +229,19 @@ border-radius: 9999px;
     }
   }
   
+  .Oneline {
+ 
+    max-lines: 1;
+    
+    text-overflow: ellipsis;
+    
+      display: -webkit-box;
+      -webkit-line-clamp: 1; /* Number of lines to clamp */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
   
+    
+  }
   
   
