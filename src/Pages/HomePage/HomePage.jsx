@@ -5,6 +5,7 @@ import Stats from './Stats.jsx';
 import MyServices from './MyServices.jsx';
 import RecentWork from './RecentWork.jsx';
 import Experiance_Education from './Experiance_Education.jsx';
+import Skills from './Skills.jsx';
 function HomePage() {
   return (
    <>
@@ -15,6 +16,7 @@ function HomePage() {
     <MyServices/>
     <RecentWork/>
     <Experiance_Education />
+    <Skills/>
    </div>
    </>
   )

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect ,memo} from 'react';
-import { WorkData } from './Work';
+import { WorkData } from '../../Data/Work.js';
 import { MoveRight, MoveLeft } from 'lucide-react';
 import Arrow from '../../assets/HomePage/Arrow.jsx';
 import {motion} from 'framer-motion'

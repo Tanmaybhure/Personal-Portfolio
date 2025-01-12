@@ -1,8 +1,8 @@
 import React from 'react'
 import Experiance from '../../assets/Experiance_education/Experiance.svg'
 import Education from '../../assets/Experiance_education/Education.svg'
-import { ExperienceData } from './Experiance_EducationData'
-import { EducationData } from './Experiance_EducationData'
+import { ExperienceData } from '../../Data/Experiance_EducationData'
+import { EducationData } from '../../Data/Experiance_EducationData'
 function Experiance_Education() {
 
 

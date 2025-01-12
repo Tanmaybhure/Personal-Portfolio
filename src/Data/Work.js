@@ -1,11 +1,11 @@
-import Magnifyx from '../../assets/RecentWork/Magnify.svg'
-import NowsBansi from '../../assets/RecentWork/Bansi.svg'
-import FrenchNYou from '../../assets/RecentWork/FrenchNYou.svg'
-import Rediance from '../../assets/RecentWork/Rediance.svg'
-import MamtaPortfolio from '../../assets/RecentWork/MamtaPortfolio.svg'
-import Deltasafe from '../../assets/RecentWork/Deltasafe.svg'
-import Gtube from '../../assets/RecentWork/Gtube.svg'
-import Elearners from '../../assets/RecentWork/Elearners.svg'
+import Magnifyx from '../assets/RecentWork/Magnify.svg'
+import NowsBansi from '../assets/RecentWork/Bansi.svg'
+import FrenchNYou from '../assets/RecentWork/FrenchNYou.svg'
+import Rediance from '../assets/RecentWork/Rediance.svg'
+import MamtaPortfolio from '../assets/RecentWork/MamtaPortfolio.svg'
+import Deltasafe from '../assets/RecentWork/Deltasafe.svg'
+import Gtube from '../assets/RecentWork/Gtube.svg'
+import Elearners from '../assets/RecentWork/Elearners.svg'
 
 export const WorkData=[
     {
