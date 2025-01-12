@@ -181,6 +181,11 @@ border-radius: 9999px;
     transform-origin: bottom left;
   }
 
+  .HoverDiv{
+    background: linear-gradient(to right, var(--PrimaryColor) 0%, var(--LightText) 51%, var(--PrimaryColor) 100%);
+    background-size: 200%;
+  }
+
   
   .PrimaryBtnGredient{
     background: linear-gradient(to right, var(--PrimaryColor) 0%, var(--LightText) 51%, var(--PrimaryColor) 100%);

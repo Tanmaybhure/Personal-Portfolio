@@ -16,11 +16,12 @@ function Experiance_Education() {
         <span   className="font-bold  flex gap-4 items-center md:text-left text-center Hero-Title leading-[1.2]"
           style={{ fontSize: "clamp(30px, 4vw, 45px)" }}><img src={Experiance} alt="" className='w-[45px] ' /> My Experience</span>
    {EducationData.slice(0,3).map((data,index)=>(
-          <div key={index} className='flex flex-col gap-2 bg-inherit py-5 px-5 md:px-7  workDiv rounded-2xl md:mr-[20px]  xl:mr-[80px]  '>
-            <p className='text-[#8750f7] font-sora font-bold' style={{ fontSize: "clamp(14px, 4vw, 20px)" }}>{data.Duration}</p>
-            <p className='font-sora font-bold uppercase Oneline ' style={{ fontSize: "clamp(17px, 2vw, 25px)" }}>{data.Title}</p>
-            <p className='Oneline'>{data.Place}</p>
-            <p className='text-xs text-[#8750f7] opacity-75 font-bold'>{data.Country}</p>
+          <div key={index} className='flex flex-col gap-2 bg-inherit py-5 px-5 md:px-7 overflow-hidden group cursor-pointer workDiv rounded-2xl md:mr-[20px]  xl:mr-[80px]  '>
+            <div className='w-full h-full absolute top-0 left-0 z-0 opacity-0 group-hover:opacity-100 HoverDiv transition-all duration-1000 '></div>
+            <p className='text-[#8750f7] transition-all duration-1000 group-hover:text-white font-sora font-bold z-10' style={{ fontSize: "clamp(14px, 4vw, 20px)" }}>{data.Duration}</p>
+            <p className='font-sora font-bold uppercase Oneline z-10 ' style={{ fontSize: "clamp(17px, 2vw, 25px)" }}>{data.Title}</p>
+            <p className='Oneline z-10'>{data.Place}</p>
+            <p className='text-xs text-[#bdbdbd] transition-all duration-1000 group-hover:text-white font-bold z-10'>{data.Country}</p>
           </div>
 ))}
 
@@ -34,16 +35,21 @@ function Experiance_Education() {
           style={{ fontSize: "clamp(30px, 4vw, 45px)" }}><img src={Education} alt="" className='w-[45px]' />My Education</span>
            
            {ExperienceData.slice(0,3).map((data,index)=>(
-          <div key={index} className='flex flex-col gap-2 bg-inherit py-5 px-5 md:px-7  workDiv rounded-2xl md:mr-[20px]  xl:mr-[80px]  '>
-            <p className='text-[#8750f7] font-sora font-bold' style={{ fontSize: "clamp(14px, 4vw, 20px)" }}>{data.Duration}</p>
-            <p className='font-sora font-bold uppercase Oneline ' style={{ fontSize: "clamp(17px, 2vw, 25px)" }}>{data.Title}</p>
-            <p className='Oneline'>{data.Place}</p>
-            <p className='text-xs text-[#8750f7] opacity-75 font-bold'>{data.Country}</p>
-          </div>
+         <div key={index} className='flex flex-col gap-2 bg-inherit py-5 px-5 md:px-7 overflow-hidden group cursor-pointer workDiv rounded-2xl md:mr-[20px]  xl:mr-[80px]  '>
+         <div className='w-full h-full absolute top-0 left-0 z-0 opacity-0 group-hover:opacity-100 HoverDiv transition-all duration-1000 '></div>
+         <p className='text-[#8750f7] transition-all duration-1000 group-hover:text-white font-sora font-bold z-10' style={{ fontSize: "clamp(14px, 4vw, 20px)" }}>{data.Duration}</p>
+         <p className='font-sora font-bold uppercase Oneline z-10 ' style={{ fontSize: "clamp(17px, 2vw, 25px)" }}>{data.Title}</p>
+         <p className='Oneline z-10'>{data.Place}</p>
+         <p className='text-xs text-[#bdbdbd] transition-all duration-1000 group-hover:text-white font-bold z-10'>{data.Country}</p>
+       </div>
 ))}
           
           
       </div>
+
+        <div className='flex justify-center  xl:-translate-x-9 col-span-full '>
+          <a href="" className='text-[#8750f7] hover:text-[#9e77ec] transition-colors duration-500 '>View All...</a>
+        </div>
 
     </div>
   )

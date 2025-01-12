@@ -21,29 +21,32 @@ export const ExperienceData =[
   ]
   
   export const EducationData =[
+   
+  
+  
     {
       Duration:'2022 - Present',
-      Title:'Internship Trainee',
-      Place:'iBase Electrosoft LLP, Nagpur (Internship · On-site)',
-      Country:'India',
+      Title:'FullStack Developer',
+      Place:"MagnifyX",
+      Country:'Internship · London · Remote',
+    },
+    {
+      Duration:'2022 - Present',
+      Title:'Frontend Developer',
+      Place:"French 'N' You",
+      Country:'Internship · India · Remote',
     },
     {
       Duration:'2022 - Present',
       Title:'Frontend Web Developer',
-      Place:'KraftMonk (Freelance · Remote)',
-      Country:'India',
+      Place:'KraftMonk ',
+      Country:'Freelance · India · Remote',
     },
     {
       Duration:'2022 - Present',
-      Title:'Frontend Developer Intern',
-      Place:"French 'N' You (Internship · Remote)",
-      Country:'India',
-    },
-    {
-      Duration:'2022 - Present',
-      Title:'FullStack Developer Intern',
-      Place:"French 'N' You (Internship · Remote)",
-      Country:'London',
+      Title:'Internship Trainee',
+      Place:'iBase Electrosoft LLP, Nagpur',
+      Country:'Internship · India · On-site',
     },
    
   ]
