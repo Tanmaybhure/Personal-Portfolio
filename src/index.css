@@ -140,6 +140,12 @@
 }
 
 
+.slick-dots li button:before{
+  font-size: 10px !important;
+  color: #8750f7 !important;
+ 
+}
+
 
 .blur{
 position: absolute;

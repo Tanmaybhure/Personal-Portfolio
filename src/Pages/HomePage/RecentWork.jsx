@@ -123,14 +123,14 @@ const RecentWork = memo(()=>{
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="PrimaryBtnGredient px-6 py-3 rounded-full disabled:bg-none disabled:bg-[#1f1a2b] disabled:text-[#8750f7] disabled:border disabled:border-[#8750f7]"
+          className=" transition-all duration-500 PrimaryBtnGredient px-6 py-3 rounded-full disabled:bg-none disabled:bg-[#1f1a2b] disabled:text-[#8750f7] disabled:border disabled:border-[#8750f7]"
         >
           <MoveLeft />
         </button>
         <button
           onClick={handleNext}
           disabled={currentIndex + itemsPerPage >= filteredData.length}
-          className="PrimaryBtnGredient px-6 py-3 rounded-full disabled:bg-none disabled:bg-[#1f1a2b] disabled:text-[#8750f7] disabled:border disabled:border-[#8750f7]"
+          className=" transition-all duration-500 PrimaryBtnGredient px-6 py-3 rounded-full disabled:bg-none disabled:bg-[#1f1a2b] disabled:text-[#8750f7] disabled:border disabled:border-[#8750f7]"
         >
           <MoveRight />
         </button>
