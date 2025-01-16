@@ -23,8 +23,8 @@ function HeaderBtn({ Text, Img, Link, className ,DropDown }) {
       >
 
     
-    <NavLink to={Link} className={({ isActive }) =>
-        `${isActive ? 'after:scale-x-100' : ''} py-[30px] ${className} underline-animation  relative gap-1 font-medium flex justify-center items-center`} style={{ fontSize: "clamp(12px, 1.3vw, 16px)" }} >
+    <NavLink to={Link} className={() =>
+        ` py-[30px] ${className} underline-animation  relative gap-1 font-medium flex justify-center items-center`} style={{ fontSize: "clamp(12px, 1.3vw, 16px)" }} >
       {Text} 
       {Img && !isDropdownOpen ? <img src={Img} alt={Text} className="w-5 h-5" /> : <img src={Minus} alt={Text} className="w-5  h-5" />}
     </NavLink>
