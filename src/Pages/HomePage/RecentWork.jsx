@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect ,memo} from 'react';
 import { WorkData } from '../../Data/Work.js';
 import { MoveRight, MoveLeft } from 'lucide-react';
 import Arrow from '../../assets/HomePage/Arrow.jsx';
-import {motion} from 'framer-motion'
 const RecentWork = memo(()=>{
   const WorkBtn = ['All', 'UI/UX', 'Web Development'];
 
@@ -98,9 +97,8 @@ const RecentWork = memo(()=>{
 
         {/* Display filtered and paginated cards */}
         {paginatedData.map((work, index) => (
-          <motion.div
-          initial={{opacity:0}}
-          animate={{opacity:1}}
+          <div
+          
           key={index} className='relative md:w-[48%] p-5 group md:p-10 pb-0 rounded-[10px] overflow-hidden workDiv mb-[30px] xl:mb-[50px] shadow-xl max-h-[276px] md:max-h-[336px] lg:max-h-[436px] xl:max-h-[506px]'>
             <img loading='eager' src={work.img} alt={work.title} className='object-cover rounded-sm' />
 
@@ -115,7 +113,7 @@ const RecentWork = memo(()=>{
             </div>
              
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
 
