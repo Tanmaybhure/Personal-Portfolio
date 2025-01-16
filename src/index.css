@@ -44,6 +44,17 @@
   will-change: opacity, transform;
 }
 
+.dabba::before{
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	right: calc(100% + 20px);
+	top: 0;
+	background-color: var(--BlackAccent);
+	border: 2px solid var(--PrimaryColor );
+}
 
 .portfolio-box:before {
   content: "";

@@ -40,7 +40,7 @@ function HomePage() {
 
   return (
    <>
-   <div  ref={scrollDivRef} className='flex flex-col items-center scrollDiv gap-10 lg:gap-20 w-full overflow-x-hidden h-screen font-sora will-change-auto scroll-smooth'>
+   <div  ref={scrollDivRef} className='flex flex-col items-center scrollDiv w-full overflow-x-hidden h-screen font-sora will-change-auto scroll-smooth'>
    <Navbar isScrolled={isScrolled}/>
    <Introduction/>
     <Stats/>
