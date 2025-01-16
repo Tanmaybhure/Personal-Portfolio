@@ -7,6 +7,8 @@ import RecentWork from './RecentWork.jsx';
 import Experiance_Education from './Experiance_Education.jsx';
 import Skills from './Skills.jsx';
 import Testimonial from './Testimonial.jsx';
+import Footer from '../../Components/SharedComponent/Footer.jsx';
+import Contact from './Contact.jsx';
 function HomePage() {
   return (
    <>
@@ -19,6 +21,8 @@ function HomePage() {
     <Experiance_Education />
     <Skills/>
     <Testimonial/>
+    <Contact/>
+    <Footer/>
    </div>
    </>
   )

@@ -255,4 +255,10 @@ border-radius: 9999px;
     
   }
   
-  
+  input,textarea{
+    color:var(--PrimaryColor);
+    outline: none;
+  }
+  input::placeholder,textarea::placeholder{
+    color:#8c6ad1;
+  }

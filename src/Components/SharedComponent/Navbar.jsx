@@ -14,7 +14,7 @@ function Navbar() {
     
     <div className='flex gap-4  justify-center items-center right-0 top-0 z-50 w-full sticky py-5  '>
 
-        <div className='mx-auto justify-between  items-center  w-full px-2 md:px-5 lg:max-w-[950px] xl:max-w-[1220px] 2xl:max-w-[1320px]  flex'>
+        <div className='mx-auto justify-between  items-center  w-full px-2 md:px-5 lg:max-w-[950px] xl:max-w-[1248px] 2xl:max-w-[1348px]  flex'>
 
 
      
