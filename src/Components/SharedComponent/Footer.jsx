@@ -1,7 +1,6 @@
 import React from 'react'
 import DarkLogo from '../../assets/HomePage/LightLogo.svg';
 import NavLinks from '../SharedComponent/NavLinks.js'
-import { NavLink } from 'react-router-dom';
 
 
 function Footer() {
@@ -15,10 +14,10 @@ function Footer() {
 
                 <div className='flex gap-5 xl:gap-10 items-center justify-center'>
             {NavLinks.map((data,index)=>(
-   <NavLink key={index} to={data.Link} className={
+   <a key={index} href={data.Link} className={
         `py-[30px]  underline-animation relative gap-1 font-medium flex justify-center items-center`} style={{ fontSize: "clamp(12px, 1.3vw, 16px)" }} >
       {data.text} 
-    </NavLink>               
+    </a>               
                ) )}
         </div>
 

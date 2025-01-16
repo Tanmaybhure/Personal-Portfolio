@@ -7,7 +7,7 @@ function Experiance_Education() {
 
 
   return (
-    <div className='grid md:grid-cols-2 gap-8 w-screen py-24 px-4  md:px-10 lg:px-16 xl:px-32 bg-[#06080a]'>
+    <div id='Experience_&_Education' className='grid md:grid-cols-2 gap-8 w-screen py-24 px-4  md:px-10 lg:px-16 xl:px-32 bg-[#06080a]'>
       
       <div className='flex flex-col gap-7'>
 

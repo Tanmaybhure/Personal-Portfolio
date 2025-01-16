@@ -14,24 +14,24 @@ import PlusIco from '../../assets/HomePage/plusIcon.svg';
         img:'',
         Link:'/About',
     },
-    {
-        text:'Services',
-        img:'',
-        Link:'/Services',
-    },
-    {
-        text:'Portfolios',
-        img:'',
-        Link:'/Portfolios',
-    },
+    // {
+    //     text:'Services',
+    //     img:'',
+    //     Link:'/Services',
+    // },
+    // {
+    //     text:'Portfolios',
+    //     img:'',
+    //     Link:'/Portfolios',
+    // },
     {
         text:'Testimonial ',
-        Link:'/Blog',
+        Link:'#Testimonial',
     },
     {
         text:'Contact',
         img:'',
-        Link:'/Contact',
+        Link:'#Contact',
     },
     
     ];

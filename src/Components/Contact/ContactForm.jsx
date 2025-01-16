@@ -31,7 +31,7 @@ function ContactForm() {
   
   return (
    <>
-    <form ref={form} onSubmit={sendEmail} className="bg-[#06080a] order-2 lg:order-1 relative overflow-visible gap-8 w-full lg:w-[670px] z-10 py-8 px-4 md:p-14 lg:px-6 xl:px-14 flex flex-col rounded-xl ">
+    <form ref={form} id='Contact' onSubmit={sendEmail} className="bg-[#06080a] order-2 lg:order-1 relative overflow-visible gap-8 w-full lg:w-[670px] z-10 py-8 px-4 md:p-14 lg:px-6 xl:px-14 flex flex-col rounded-xl ">
         <div className="flex flex-col relative items-start px-1  gap-4">
           <h1
             className="font-bold text-left Hero-Title leading-[1.2]"

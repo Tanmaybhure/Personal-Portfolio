@@ -102,7 +102,7 @@ const RecentWork = memo(()=>{
           initial={{opacity:0}}
           animate={{opacity:1}}
           key={index} className='relative md:w-[48%] p-5 group md:p-10 pb-0 rounded-[10px] overflow-hidden workDiv mb-[30px] xl:mb-[50px] shadow-xl max-h-[276px] md:max-h-[336px] lg:max-h-[436px] xl:max-h-[506px]'>
-            <img loading='lazy' src={work.img} alt={work.title} className='object-cover rounded-sm' />
+            <img loading='eager' src={work.img} alt={work.title} className='object-cover rounded-sm' />
 
             <div className=' transition-all duration-500 opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 z-50 absolute left-0 px-2 sm:px-4 xl:px-6 bottom-3 w-full'>
             
