@@ -9,7 +9,7 @@ import Plus from '../../assets/HomePage/plusIcon.svg'
 
 
 
-function Navbar({isScrolled}) {
+function Navbar({isScrolled,className}) {
   const PortFolioLinks =[
     {
       text:'Services',
@@ -28,7 +28,7 @@ function Navbar({isScrolled}) {
   return (
     <>
     
-    <div className='flex gap-4 justify-center items-center transition-transform duration-500 ease-in-out right-0 top-0 z-[99999999999] w-full sticky py-2 bg-transparent'  >
+    <div className={`${className} flex gap-4 justify-center items-center transition-transform duration-500 ease-in-out right-0 top-0 z-[99999999999] w-full sticky py-2 bg-transparent`}  >
         <div className={`bg-black w-full h-full transition-transform duration-500  absolute z-0 top-0 left-0 ${isScrolled ? 'translate-y-0 shadow-xl shadow-[#8750f733] ': '-translate-y-full'} `}/>
         <div className='mx-auto justify-between  items-center  w-full px-2 md:px-5 lg:max-w-[950px] xl:max-w-[1248px] 2xl:max-w-[1348px]  flex'>
 

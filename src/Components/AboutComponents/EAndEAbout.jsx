@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import { GraduationCap } from "lucide-react";
+import { BriefcaseBusiness } from "lucide-react";
 import { EducationData } from "../../Data/Experiance_EducationData";
 import { ExperienceData } from "../../Data/Experiance_EducationData";
 
@@ -23,7 +24,7 @@ function EAndEAbout() {
 
   return (
     <>
-      <div id="Resume" className="grid grid-cols-1 md:grid-cols-2 w-screen  justify-items-center -translate-y-48 px-10 xl:px-28 ">
+      <div id="Resume" className="bg-[#06080a] py-24 grid grid-cols-1 md:grid-cols-2 w-screen  justify-items-center -translate-y-80 px-10 xl:px-28 ">
       <h1
           className="font-bold col-span-full mb-16  text-center Hero-Title leading-[1.2]"
           style={{ fontSize: "clamp(30px, 4vw, 45px)" }}
@@ -80,7 +81,7 @@ function EAndEAbout() {
                 className="dabba relative cursor-pointer flex items-start gap-5"
               >
                 <div className="bg-[#2a1454] -translate-y-5 p-4 rounded-full">
-                  <GraduationCap />
+                  <BriefcaseBusiness />
                 </div>
                 <div className="flex -translate-y-5 flex-col gap-1">
                   <p
