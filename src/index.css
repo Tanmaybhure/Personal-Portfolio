@@ -283,3 +283,19 @@ border-radius: 9999px;
   input::placeholder,textarea::placeholder{
     color:#8c6ad1;
   }
+
+
+
+
+    #animated-path {
+      animation: draw 3s ease forwards;
+    }
+
+    @keyframes draw {
+      0% {
+        stroke-dashoffset: 5000; /* Start drawing from here */
+      }
+      100% {
+        stroke-dashoffset: 0; /* Complete the drawing */
+      }
+    }

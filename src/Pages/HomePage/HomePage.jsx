@@ -1,4 +1,5 @@
 import React,{useRef,useEffect,useState} from 'react';
+import { AnimatePresence, motion } from "framer-motion";
 import Navbar from '../../Components/SharedComponent/Navbar.jsx';
 import Introduction from './Introduction.jsx';
 import Stats from './Stats.jsx';
@@ -9,9 +10,20 @@ import Skills from './Skills.jsx';
 import Testimonial from './Testimonial.jsx';
 import Footer from '../../Components/SharedComponent/Footer.jsx';
 import Contact from './Contact.jsx';
+import IntroSVG from '../../Components/Animations/IntroSVG.jsx';
 function HomePage() {
+
+  const [showHero, setShowHero] = useState(false);
+
+  
   const [isScrolled, setIsScrolled] = useState(false);
   const scrollDivRef = useRef(null); // Create a ref to target the scrollable div
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowHero(true);
+    }, 2500);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,6 +52,20 @@ function HomePage() {
 
   return (
    <>
+
+<AnimatePresence>
+        {!showHero && (
+          <motion.div
+            exit={{ opacity: 0}}
+            transition={{ duration: 0.5 }}
+            className="h-screen fixed bg-[#0c0811] z-[999999999999999] flex items-center justify-center inset-0 w-screen"
+          >
+    
+            <IntroSVG/>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
    <div  ref={scrollDivRef} className='flex flex-col items-center scrollDiv w-full overflow-x-hidden h-screen font-sora will-change-auto scroll-smooth'>
    <Navbar isScrolled={isScrolled}/>
    <Introduction/>
