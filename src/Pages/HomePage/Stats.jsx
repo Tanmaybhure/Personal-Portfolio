@@ -1,5 +1,5 @@
 import React from 'react'
-import CountUp from '../../Components/Animations/Countup'
+import CountUp from '../../Components/Animations/CountUp.jsx'
 function Stats() {
 
 const Stats=[

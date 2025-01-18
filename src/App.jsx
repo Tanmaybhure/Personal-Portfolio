@@ -1,6 +1,6 @@
 import HomePage from './Pages/HomePage/HomePage'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import UnderDevelopment from './Pages/HomePage/UnderDevelopment';
+// import UnderDevelopment from './Pages/HomePage/UnderDevelopment';
 import About from './Pages/About/About';
 function App() {
  

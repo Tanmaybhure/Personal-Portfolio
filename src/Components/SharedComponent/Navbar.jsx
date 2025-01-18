@@ -1,9 +1,9 @@
 import React from 'react';
 import HeaderBtn from './HeaderBtn';
 import PrimaryBtn from './Buttons/PrimaryBtn';
-import LightLogo from '../../assets/HomePage/DarkLogo.svg';
+// import LightLogo from '../../assets/HomePage/DarkLogo.svg';
 import DarkLogo from '../../assets/HomePage/LightLogo.svg';
-import NavLinks from '../SharedComponent/NavLinks.js'
+// import NavLinks from '../SharedComponent/NavLinks.js'
 import Plus from '../../assets/HomePage/plusIcon.svg'
 
 
