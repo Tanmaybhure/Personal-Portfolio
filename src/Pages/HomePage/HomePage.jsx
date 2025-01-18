@@ -73,7 +73,7 @@ function HomePage() {
     <MyServices/>
     <RecentWork/>
     <Experiance_Education />
-    <Skills/>
+    <Skills className='!pt-20' />
     <Testimonial/>
     <Contact/>
     <Footer/>
