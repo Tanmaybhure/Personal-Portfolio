@@ -1,10 +1,10 @@
 import ReactLogo from '../assets/Skills/react.svg'
-import JsLogo from '../assets/Skills/JS.svg'
-import CSSLogo from '../assets/Skills/CSS.svg'
-import HtmlLogo from '../assets/Skills/HTML.svg'
+import JsLogo from '../assets/Skills/Js.svg'
+import CSSLogo from '../assets/Skills/Css.svg'
+import HtmlLogo from '../assets/Skills/Html.svg'
 import TailwindLogo from '../assets/Skills/Tailwind.svg'
 import FigmaLogo from '../assets/Skills/Figma.svg'
-import PHPLogo from '../assets/Skills/PHP.svg'
+import PHPLogo from '../assets/Skills/Php.svg'
 
 
 export const SkillsData =[
