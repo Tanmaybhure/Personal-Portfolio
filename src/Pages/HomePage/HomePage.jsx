@@ -66,6 +66,7 @@ function HomePage() {
         )}
       </AnimatePresence>
 
+  {showHero && (
    <div  ref={scrollDivRef} className='flex flex-col items-center scrollDiv w-full overflow-x-hidden h-screen font-sora will-change-auto scroll-smooth'>
    <Navbar isScrolled={isScrolled}/>
    <Introduction/>
@@ -77,7 +78,7 @@ function HomePage() {
     <Testimonial/>
     <Contact/>
     <Footer/>
-   </div>
+   </div>)}
    </>
   )
 }
