@@ -71,7 +71,7 @@ const RecentWork = memo(() => {
   };
 
   return (
-    <div className='font-sora flex flex-col items-center md:px-3 py-20 !pb-24 lg:px-10 xl:p-28 w-full gap-14'>
+    <div id='Work' className='font-sora flex flex-col items-center md:px-3 py-20 !pb-24 lg:px-10 xl:p-28 w-full gap-14'>
       <div className="flex flex-col items-center px-1 gap-4">
         <h1
           className="font-bold md:text-left text-center Hero-Title leading-[1.2]"

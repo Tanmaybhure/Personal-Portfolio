@@ -18,7 +18,7 @@ function Navbar({isScrolled,className}) {
     },
     {
       text:'Work',
-      Link:'/Work',
+      Link:'#Work',
     },
     {
       text:'Experience & Education',
