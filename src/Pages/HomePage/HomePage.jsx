@@ -47,7 +47,7 @@ function HomePage() {
         scrollDiv.removeEventListener('scroll', handleScroll);
       }
     };
-  }, []);
+  }, [showHero]);
 
 
   return (
