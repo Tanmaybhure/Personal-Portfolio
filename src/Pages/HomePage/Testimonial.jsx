@@ -22,7 +22,7 @@ function Testimonial() {
         autoplay: true,
         responsive: [
             {
-                breakpoint: 475, // Small devices
+                breakpoint: 475, 
                 settings: {
                   slidesToShow: 1,
                   slidesToScroll: 1,
@@ -30,14 +30,14 @@ function Testimonial() {
                 },
               },
           {
-            breakpoint: 594, // Small devices
+            breakpoint: 594, 
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
             },
           },
           {
-            breakpoint: 768, // Medium devices (e.g., tablets)
+            breakpoint: 768, 
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
@@ -45,16 +45,16 @@ function Testimonial() {
             },
           },
           {
-            breakpoint: 1024, // Large devices (e.g., laptops)
+            breakpoint: 1024, 
             settings: {
-              slidesToShow: 2, // Reduced to 3 for better viewability
+              slidesToShow: 2, 
               slidesToScroll: 3,
             },
           },
           {
-            breakpoint: 1280, // Extra-large devices
+            breakpoint: 1280,
             settings: {
-              slidesToShow: 2, // Full number of slides visible
+              slidesToShow: 2, 
               slidesToScroll: 1,
             },
           },

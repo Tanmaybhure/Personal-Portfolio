@@ -1,51 +1,42 @@
 
 export const ExperienceData =[
     {
-      Duration:'2022 - Present',
+      Duration:'2023 - Present',
       Title:'Btech In Computer Engineering',
-      Place:'G H Raisoni College of Engineering and Management, Nagpur',
+      Place:'Pimpri Chinchwad College of Engineering, Pune',
       Country:'India',
     },
     {
-      Duration:'2022 - Present',
+      Duration:'2020 - 2023',
       Title:'Diploma In Computer Engineering',
       Place:'Government Polytechnic, Nagpur',
       Country:'India',
     },
     {
-      Duration:'2022 - Present',
+      Duration:'2016 - 2020',
       Title:'High School',
-      Place:'Janta High School, Talni',
+      Place:'Shree Convent, Nagpur',
+      Country:'India',
+    },
+    {
+      Duration:'2010 - 2016',
+      Title:'Middle School',
+      Place:'Shahu garden Convent, Nagpur',
       Country:'India',
     }
   ]
   
-  export const EducationData =[
-   
-  
-  
+  export const EducationData =[  
     {
-      Duration:'2022 - Present',
+      Duration:'2024 - Present',
       Title:'FullStack Developer',
-      Place:"MagnifyX",
-      Country:'Internship · London · Remote',
-    },
-    {
-      Duration:'2022 - Present',
-      Title:'Frontend Developer',
-      Place:"French 'N' You",
+      Place:"BrainChain",
       Country:'Internship · India · Remote',
     },
     {
-      Duration:'2022 - Present',
-      Title:'Frontend Web Developer',
-      Place:'KraftMonk ',
-      Country:'Freelance · India · Remote',
-    },
-    {
-      Duration:'2022 - Present',
+      Duration:'2022 - 2022',
       Title:'Internship Trainee',
-      Place:'iBase Electrosoft LLP, Nagpur',
+      Place:'Simsoft Technologies, Nagpur',
       Country:'Internship · India · On-site',
     },
    

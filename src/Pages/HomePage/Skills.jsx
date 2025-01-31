@@ -16,7 +16,7 @@ function Skills({className}) {
         autoplay: true,
         responsive: [
             {
-                breakpoint: 475, // Small devices
+                breakpoint: 475, 
                 settings: {
                   slidesToShow: 1,
                   slidesToScroll: 1,
@@ -24,7 +24,7 @@ function Skills({className}) {
                 },
               },
           {
-            breakpoint: 594, // Small devices
+            breakpoint: 594, 
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
@@ -32,7 +32,7 @@ function Skills({className}) {
             },
           },
           {
-            breakpoint: 768, // Medium devices (e.g., tablets)
+            breakpoint: 768, 
             settings: {
               slidesToShow: 3,
               slidesToScroll: 2,
@@ -41,16 +41,16 @@ function Skills({className}) {
             },
           },
           {
-            breakpoint: 1024, // Large devices (e.g., laptops)
+            breakpoint: 1024, 
             settings: {
-              slidesToShow: 4, // Reduced to 3 for better viewability
+              slidesToShow: 4, 
               slidesToScroll: 3,
             },
           },
           {
-            breakpoint: 1280, // Extra-large devices
+            breakpoint: 1280, 
             settings: {
-              slidesToShow: 5, // Full number of slides visible
+              slidesToShow: 5, 
               slidesToScroll: 1,
             },
           },

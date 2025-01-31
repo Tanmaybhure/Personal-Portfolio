@@ -17,7 +17,7 @@ function HomePage() {
 
   
   const [isScrolled, setIsScrolled] = useState(false);
-  const scrollDivRef = useRef(null); // Create a ref to target the scrollable div
+  const scrollDivRef = useRef(null); 
 
   useEffect(() => {
     setTimeout(() => {

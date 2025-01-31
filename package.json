@@ -3,7 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "author": "Gajendra Naphade <gajendra44.connect@gmail.com>",
+  "license": "MIT",
+  "copyright": {
+    "year": "2025",
+    "owner": "Gajendra Naphade"
+  },
+  "description": "Personal portfolio project showcasing work and skills.",  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
