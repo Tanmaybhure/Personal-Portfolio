@@ -25,7 +25,7 @@ function Introduction() {
                 className="font-bold md:text-left text-center"
                 style={{ fontSize: "clamp(20px, 4vw, 36px)" }}
               >
-                I am Gajendra
+                I am Tanmay Bhure
               </h3>
             </div>
 
@@ -34,7 +34,7 @@ function Introduction() {
                 className="font-bold md:text-left text-center Hero-Title leading-[1.2]"
                 style={{ fontSize: "clamp(30px, 4vw, 69px)" }}
               >
-                Web Developer + UX Designer{" "}
+                Web Developer + Software Developer{" "}
               </h1>
             </div>
 
@@ -57,15 +57,15 @@ function Introduction() {
             <div className="flex items-center justify-center md:justify-normal flex-wrap lg:flex-nowrap lg:w-auto w-3/4 gap-6 lg:mt-5 xl:mt-10">
               <SecondaryBtn className={"!items-start hover:bg-[#8750f7] text-[17px] font-normal !leading-[21px]"}>
                 {" "}
-                {"Download CV"} <DownloadLogo height={18} width={18} />
+                {"Download Resume"} <DownloadLogo height={18} width={18} />
               </SecondaryBtn>
-              <SecondaryBtn Link='https://www.instagram.com/gajendra_naphade' className="ml-[6vw] sm:ml-0 w-fit second relative overflow-hidden  rounded-full !py-2 !px-2 h-fit">
+              <SecondaryBtn Link='https://www.instagram.com/tanmay_bhure/' className="ml-[6vw] sm:ml-0 w-fit second relative overflow-hidden  rounded-full !py-2 !px-2 h-fit">
                 <Instagram size={20} />
               </SecondaryBtn>
-              <SecondaryBtn Link='https://github.com/gajju44' className="w-fit second relative overflow-hidden  rounded-full !py-2 !px-2 h-fit">
+              <SecondaryBtn Link='https://github.com/Tanmaybhure' className="w-fit second relative overflow-hidden  rounded-full !py-2 !px-2 h-fit">
                 <Github  size={20} />
               </SecondaryBtn>
-              <SecondaryBtn Link='https://www.linkedin.com/in/gajendra-naphade/' className="mr-[6vw] sm:mr-0 w-fit second relative overflow-hidden  rounded-full !py-2 !px-2 h-fit">
+              <SecondaryBtn Link='https://www.linkedin.com/in/tanmay-bhure/' className="mr-[6vw] sm:mr-0 w-fit second relative overflow-hidden  rounded-full !py-2 !px-2 h-fit">
                 <Linkedin  size={20} />
               </SecondaryBtn>
             </div>

@@ -42,7 +42,7 @@ function ContactForm() {
                 style={{ fontSize: "clamp(16px, 5vw, 16px)" }}
                 className=" text-left  text-[#dddddd] font-light "
               >
-               I design and code beautifully simple things and i love what i do. Just simple like that!
+               I code and made softwares  and i love what i do. Just simple like that!
               </p>
 
         </div>

@@ -21,7 +21,7 @@ function Footer() {
                ) )}
         </div>
 
-               <p className='text-[#bdbdbd] text-center'> © {currentYear} Gajendra Naphade | All Rights Reserved | Developed by <a href='https://linkedin.com/in/gajendra-naphade' target='_blank' className='text-white hover:underline underline-offset-2 font-medium'>Gajendra Naphade </a></p>
+               <p className='text-[#bdbdbd] text-center'> © {currentYear} Tanmay Bhure | All Rights Reserved | Developed by <a href='https://linkedin.com/in/tanmay-bhure' target='_blank' className='text-white hover:underline underline-offset-2 font-medium'>Tanmay Bhure </a></p>
 
             </div>
 

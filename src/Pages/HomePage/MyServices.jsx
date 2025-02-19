@@ -5,13 +5,13 @@ import Arrow from '../../assets/HomePage/Arrow.jsx'
 const ServicesBtns=[
     {
         Number:'01',
-        Heading:'Responsive Design',
+        Heading:'Responsive Website',
         Description:'Ensure your website looks great on any device, with layouts that adapt to different screen sizes seamlessly.',
     },
     {
         Number:'02',
-        Heading:'Web Designing',
-        Description:'Design websites that adapt seamlessly to any device, ensuring a flawless experience across all screen sizes.',
+        Heading:'Software Development',
+        Description:'Develop Software that adapt seamlessly to any device, ensuring a flawless experience.',
     },
     {
         Number:'03',
@@ -20,8 +20,8 @@ const ServicesBtns=[
     },
     {
         Number:'04',
-        Heading:'Website Redesign',
-        Description:'Refresh outdated websites with modern, appealing designs that align with current brand goals and user expectations.',
+        Heading:'Server Development',
+        Description:'Develop scalable server using latest technologies, ensuring high performance, security, robustness, efficiency.',
     },
 ]
 

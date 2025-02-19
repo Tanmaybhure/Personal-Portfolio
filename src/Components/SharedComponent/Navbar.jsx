@@ -41,7 +41,7 @@ function Navbar({isScrolled,className}) {
                 <img src={DarkLogo} alt="Logo" className=' w-6 h-6 md:w-10 md:h-10 xl:h-12 xl:w-12' />
                 </a>
 
-                <a className='font-medium  cursor-pointer hover:text-[#8750f7]' href='mailto:gajendra44.connect@gmail.com' style={{ fontSize: "clamp(12px, 1.2vw, 16px)" }}>gajendra44.connect@gmail.com</a>
+                <a className='font-medium  cursor-pointer hover:text-[#8750f7]' href='mailto:tanmaybhure2004@gmail.com' style={{ fontSize: "clamp(12px, 1.2vw, 16px)" }}>tanmaybhure2004@gmail.com</a>
         </div>
 
         <div className='flex gap-5 xl:gap-10 z-50 items-center'>
@@ -51,7 +51,12 @@ function Navbar({isScrolled,className}) {
                <HeaderBtn className={'lg:flex hidden'} Img={Plus}  Link={'/'}  Text={'Portfolio'} DropDown={PortFolioLinks}/>
                <a className={'lg:flex hidden py-[30px] underline-animation relative gap-1 font-medium  justify-center items-center'}  href='#Testimonial'  >Testimonial</a>
                <HeaderBtn className={'lg:flex hidden'}  Link={'/Contact'}  Text={'Contact'}/>
-               <PrimaryBtn onClick={() =>window.location.href = 'mailto:gajendra44.connect@gmail.com'} className={'hidden md:flex'}  Text={'Hire Me!'} />
+               <PrimaryBtn 
+                onClick={() => window.location.href = 'https://www.leetcode.com/u/Tanmay_bhure'} 
+                className={'hidden md:flex'}  
+                Text={'My Leetcode'} 
+              />
+
                <button className='flex lg:hidden w-fit h-fit text-2xl'> ||| </button>
         </div>
         

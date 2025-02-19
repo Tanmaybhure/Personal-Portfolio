@@ -65,7 +65,7 @@ function About() {
   pauseBetweenAnimations={1}
 />
 
-<a href="mailto:gajendra44.connect@gmail.com" className='flex gap-2 md:translate-x-[45%] lg:translate-x-[55%] translate-x-8 translate-y-7 text-sm md:text-xl group hover:underline underline-offset-4'>gajendra44.connect@gmail.com <span className='rotate-45 transition-all duration-500 group-hover:rotate-90'><CircleArrowUp strokeWidth={1} /> </span></a>
+<a href="mailto:tanmaybhure2004@gmail.com" className='flex gap-2 md:translate-x-[45%] lg:translate-x-[55%] translate-x-8 translate-y-7 text-sm md:text-xl group hover:underline underline-offset-4'>tanmaybhure2004@gmail.com <span className='rotate-45 transition-all duration-500 group-hover:rotate-90'><CircleArrowUp strokeWidth={1} /> </span></a>
     </div>
 
     <Footer/>

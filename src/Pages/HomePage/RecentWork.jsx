@@ -5,7 +5,7 @@ import Arrow from '../../assets/HomePage/Arrow.jsx';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const RecentWork = memo(() => {
-  const WorkBtn = ['All', 'UI/UX', 'Web Development'];
+  const WorkBtn = ['All', 'Software Development', 'Web Designs'];
   const [activeButton, setActiveButton] = useState(0);
   const buttonRefs = useRef([]);
   const [buttonPosition, setButtonPosition] = useState({ left: 0, width: 0 });
@@ -135,7 +135,7 @@ const RecentWork = memo(() => {
                 <div className='Service-Btn rounded-xl flex justify-between items-center p-6'>
                   <div className='flex flex-col gap-2'>
                     <h3 className='font-sora font-bold' style={{ fontSize: "clamp(25px, 2vw, 30px)" }}>{work.title}</h3>
-                    <p className='font-sora'>Magnifyx is a platform that allows you</p>
+                    <p className='font-sora'></p>
                   </div>
                   <a href="" className='-rotate-[220deg]'>
                     <Arrow className='w-7 h-7' />
