@@ -3,7 +3,7 @@ import SecondaryBtn from "../../Components/SharedComponent/Buttons/SecondaryBtn"
 import DownloadLogo from "../../assets/HomePage/DownloadLogo.jsx";
 import Gajju from "../../assets/HomePage/profile.svg";
 import {  Instagram, Linkedin, Github } from "lucide-react";
-
+import resume from "../../../public/resume.pdf"; 
 function Introduction() {
   return (
     <>
@@ -55,10 +55,19 @@ function Introduction() {
             </div>
 
             <div className="flex items-center justify-center md:justify-normal flex-wrap lg:flex-nowrap lg:w-auto w-3/4 gap-6 lg:mt-5 xl:mt-10">
-              <SecondaryBtn className={"!items-start hover:bg-[#8750f7] text-[17px] font-normal !leading-[21px]"}>
-                {" "}
+              {/* <SecondaryBtn className={"!items-start hover:bg-[#8750f7] text-[17px] font-normal !leading-[21px]"}
+                onClick={() => window.open("https://drive.google.com/file/d/1cpfUKH6kAdZrTwL4mKBKOoxPI0q7yb4_/view?usp=sharing", "_blank")}
+              >
                 {"Download Resume"} <DownloadLogo height={18} width={18} />
-              </SecondaryBtn>
+              </SecondaryBtn> */}
+              <a href="https://drive.google.com/file/d/1cpfUKH6kAdZrTwL4mKBKOoxPI0q7yb4_/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                <SecondaryBtn className="!items-start hover:bg-[#8750f7] text-[17px] font-normal !leading-[21px]">
+                  Download Resume <DownloadLogo height={18} width={18} />
+                </SecondaryBtn>
+              </a>
+
               <SecondaryBtn Link='https://www.instagram.com/tanmay_bhure/' className="ml-[6vw] sm:ml-0 w-fit second relative overflow-hidden  rounded-full !py-2 !px-2 h-fit">
                 <Instagram size={20} />
               </SecondaryBtn>

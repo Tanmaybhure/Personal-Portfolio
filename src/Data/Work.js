@@ -9,54 +9,52 @@ import Elearners from '../assets/RecentWork/Elearners.svg'
 
 export const WorkData=[
     {
-        title: 'Magnifyx',
+        title: 'IVenus',
         img: Magnifyx,
         desc: 'Magnifyx is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
-        category: 'Software Development',
+        category: 'Web Designs',
        
     },
     {
-        title: 'Rediance',
+        title: 'Quick-Serve Connect',
         img: Rediance,
         desc: 'Rediance is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
         category: 'Software Development',
-        category2: 'Web Designs',
     },
     {
-        title: 'Deltasafe',
+        title: 'E-Education',
         img: Deltasafe,
         desc: 'Deltasafe is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
-        category: 'Software Development',
-        category2: 'Web Designs',
-    },
-    {
-        title: 'FrenchNYou',
-        img: FrenchNYou,
-        desc: 'FrenchNYou is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
-        category: 'Software Development',
-    },
-    {
-        title: 'Gtube',
-        img: Gtube,
-        desc: 'Gtube is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
         category: 'Web Designs',
     },
     {
-        title: 'NowsBansi',
+        title: 'Nike homepage clone ',
+        img: FrenchNYou,
+        desc: 'FrenchNYou is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
+        category: 'Web Designs',
+    },
+    {
+        title: 'Eliza',
+        img: Gtube,
+        desc: 'Gtube is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
+        category: 'Software Development',
+    },
+    {
+        title: 'Spotify homepage clone',
         img: NowsBansi,
         desc: 'NowsBansi is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
         category: 'Web Designs',
     },
     {
-        title: 'MamtaPortfolio',
+        title: 'Travel Management System',
         img: MamtaPortfolio,
         desc: 'MamtaPortfolio is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
-        category: 'Web Designs',
+        category: 'Software Development',
     },
     {
         title: 'Elearners',
         img: Elearners,
         desc: 'Elearners is a platform that allows you to create and manage your own online store. It is a platform that allows you to create and manage your own online store.',
-        category: 'Web Designs',
+        category: 'Software Development',
     }
 ]
